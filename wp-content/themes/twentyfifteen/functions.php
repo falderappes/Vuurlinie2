@@ -139,9 +139,18 @@ function twentyfifteen_widgets_init() {
 		'after_title'   => '</h2>',
 	) );
 }
+
+
 add_action( 'widgets_init', 'twentyfifteen_widgets_init' );
 
+
+
+
 if ( ! function_exists( 'twentyfifteen_fonts_url' ) ) :
+	
+	
+	
+	
 /**
  * Register Google fonts for Twenty Fifteen.
  *
