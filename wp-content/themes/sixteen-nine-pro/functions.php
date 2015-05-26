@@ -160,7 +160,7 @@ add_action( 'genesis_header', 'genesis_footer_markup_close', 13 );
 add_filter( 'genesis_footer_output', 'sixteen_nine_custom_footer' );
 function sixteen_nine_custom_footer( $output ) {
 
-	$output = sprintf( '<p>%s<a href="http://www.studiopress.com/">%s</a></p>',  __( 'Powered by ', 'sixteen-nine' ), __( 'Genesis', 'sixteen-nine' ) );
+	$output = sprintf( '<p>%s<a href="http://www.de-gids.nl/">%s</a></p>',  __( ' ', 'sixteen-nine' ), __( '', 'sixteen-nine' ) );
 	return $output;
 
 }
