@@ -1,0 +1,3 @@
+bestanden die zijn aangepast:
+-style.css
+-header.php

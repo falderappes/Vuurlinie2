@@ -140,6 +140,8 @@ body {
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 1.6;
+	width:100vw;
+	text-align: center;
 }
 
 a,
@@ -193,7 +195,7 @@ ul {
 
 blockquote,
 blockquote::before {
-	color: #999;
+	color: #000;
 }
 
 blockquote {
@@ -408,11 +410,6 @@ Structure and Layout
 	max-width: 800px;
 }
 
-.site-inner {
-	float: right;
-	width: 1035px;
-}
-
 .sixteen-nine-landing .site-inner {
 	float: none;
 	max-width: 100%;
@@ -425,16 +422,17 @@ Structure and Layout
 
 .content-sidebar-wrap {
 	float: left;
-	width: 83%%;
+	width: 83%;
+	max-width:950px;
 }
 
 /* Content */
 
 .content {
-	background-color: #ededed;
-	float: left;
-	padding: 48px 60px 60px;
+	padding: 48px 60px 60px 0px;
 	width: 625px;
+	background-color: #fff3f3;
+	float:left;
 }
 
 .full-width-content .content {
@@ -525,6 +523,7 @@ Common Classes
 .site-header .site-avatar img {
 	border-radius: 50%;
 	display: block;
+	
 	float: none;
 	height: 112px;
 	margin: 0 auto 24px;
@@ -668,8 +667,9 @@ img.alignright,
 
 .entry-title,
 .widgettitle {
-	font-family: 'georgia Slab', serif;
+	font-family: 'georgia', serif;
 	font-weight: 300;
+	
 }
 
 .entry-title {
@@ -687,10 +687,11 @@ img.alignright,
 }
 
 .widgettitle {
-	color: #cdf593;
-	font-size: 16px;
-	letter-spacing: 1px;
+	color: #999;
+	font-size: 1.2em !important;
+	font-weight:normal;
 	text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
 .site-header .widgettitle {
@@ -821,9 +822,10 @@ Site Header
 	float: left;
 	height: 100%;
 	padding-top: 40px;
-	position: fixed;
 	text-align: center;
-	width: 240px;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	width: 150px;
 	z-index: 9999;
 }
 
@@ -857,6 +859,7 @@ Site Header
 
 .site-title a {
 	color: #000 !important;
+	display: none;
 	text-decoration: none;
 }
 
@@ -868,10 +871,10 @@ Site Header
 .site-description {
 	color: #000;
 	font-family: 'Georgia', serif;
-	font-size: 14px;
+	font-size: 9px;
 	font-style: italic;
 	font-weight: 300;
-	margin-bottom: 40px;
+	margin-bottom: 10px;
 }
 
 .no-header-text .title-area {
@@ -1088,7 +1091,7 @@ Content Area
 --------------------------------------------- */
 
 .after-entry {
-	background-color: #000;
+	background-color: #f2f2f2;
 	color: #fff;
 	margin-bottom: 60px;
 	padding: 40px 60px 10px;
@@ -1207,6 +1210,7 @@ Sidebars
 	display: inline;
 	padding-top: 60px;
 	font-size:12px;
+	
 }
 
 .sidebar a {
@@ -1220,13 +1224,13 @@ Sidebars
 }
 
 .sidebar .widget {	
-	margin-bottom: 40px;
+	margin-bottom: -6px;
 	word-wrap: break-word;
 }
 
 .sidebar li {
-	margin-bottom: 10px;
-	padding-bottom: 10px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 	text-align: left;
 	font-size:12px;
 	font-weight: bold;
@@ -1247,7 +1251,7 @@ Sidebars
 
 .sidebar  li li {
 	border: none;
-	margin: 0 0 0 30px;
+	margin: 0 0 0 0px;
 	padding: 0;
 	font-size:12px;
 }
@@ -1403,6 +1407,7 @@ Media Queries
 
 	.site-header .widget-area {
 		text-align: center;
+	
 	}
 
 	.content,
@@ -1441,4 +1446,13 @@ Media Queries
 		display: block;
 	}
 
+}
+
+/* wsvanvliet & dirkvis */
+
+div.site-container {
+	width:1100px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
 }

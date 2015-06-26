@@ -1,0 +1,97 @@
+@font-face {
+	font-family: 'Olympian';
+	src: url('fonts/OlympianLTStd.eot');
+	src: local('☺'), url('fonts/OlympianLTStd.woff') format('woff'), url('fonts/OlympianLTStd.ttf') format('truetype'), url('fonts/OlympianLTStd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+a:link {color: #00458b; text-decoration: none;}
+a:visited {color: #00458b; text-decoration: none;}
+a:hover {color: #00458b; text-decoration: underline;}
+a:active {color: #00458b; text-decoration: underline;}
+
+body {
+	width: 100vw;
+	text-align: center;
+	margin:0px;
+	padding:0px;
+	font-family: 'Olympian', 'Georgia', serif;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+div#page {
+	width:1100px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: left;
+	/*background-color: rgba(226,251,255,0.81);*/
+	border-left: solid 1px rgba(255,161,161,0.2);
+	border-right: solid 1px rgba(255,161,161,0.2);
+}
+
+header#masthead {
+	width:189px;
+	float:left;
+	/*background-color: rgba(253,255,107,0.79);*/
+}
+
+div#main {
+	width:600px;
+	float:left;
+	background-color: rgba(255,161,161,0.2);
+	padding: 10px 20px 60px 20px;
+}
+
+div#tertiary {
+	width:189px;
+	float:left;
+	/*background-color: rgba(107,255,112,0.79);*/
+}
+
+footer#colophon {
+	clear:both;
+	width:1020px;
+	/*background-color: rgba(255,107,107,0.79);*/
+	padding: 10px 40px 20px 40px;
+	text-align: center;
+}
+
+header#masthead, div#tertiary {
+	padding:10px 20px 40px 20px;
+}
+
+div#top-bar {
+	width: 600px;
+	height:20px;
+	text-align: center;
+	background: url('images/blackbar.png') repeat-x;
+}
+
+div#sinds {
+	font-style: normal;
+	font-family: "Georgia", serif;
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #222;
+	background-color: #faebeb;
+	margin-left:auto;
+	margin-right:auto;
+	width:110px;
+}
+
+article {
+	margin: 30px 40px 40px 40px;
+}
+
+div#logo {
+	text-align: center;
+	margin:20px 0 20px 0;
+}
+
+div#logo img {
+	width:300px;
+	height:auto;
+}
